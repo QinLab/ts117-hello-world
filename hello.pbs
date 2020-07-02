@@ -1,0 +1,6 @@
+#!/bin/bash -l
+#$ -S /bin/bash
+#$ -cwd
+./etc/profile.d/modules.sh
+
+python hello.py
